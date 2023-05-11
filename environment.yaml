@@ -10,42 +10,45 @@ dependencies:
   # - torchvision=0.12.0
   - numpy=1.23
   - pip:
-    - --extra-index-url https://download.pytorch.org/whl/rocm5.1.1
-    - torch==1.12.1+rocm5.1.1
-    - torchvision==0.13.1+rocm5.1.1
-    - torchaudio==0.12.1
-    - astunparse
-    - blendmodes
-    - accelerate
-    - basicsr
-    - fonts
-    - font-roboto
-    - gfpgan
-    - gradio==3.28.1
-    - numpy
-    - omegaconf
-    - opencv-contrib-python
-    - requests
-    - piexif
-    - Pillow
-    - pytorch_lightning==1.7.7
-    - realesrgan
-    - scikit-image>=0.19
-    - timm==0.4.12
-    - transformers==4.25.1
-    - einops
-    - jsonmerge
-    - clean-fid
-    - resize-right
-    - torchdiffeq
-    - kornia
-    - lark
-    - inflection
-    - GitPython
-    - torchsde
-    - safetensors
-    - psutil
-    - rich
-    # - open-clip-torch==1.2.1
-    - git+https://github.com/openai/CLIP.git@d50d76daa670286dd6cacf3bcd80b5e4823fc8e1
-    - git+https://github.com/mlfoundations/open_clip.git@bb6e834e9c70d9c27d0dc3ecedeebeaeb1ffad6b
+      - --extra-index-url https://download.pytorch.org/whl/rocm5.1.1
+      - torch==1.12.1+rocm5.1.1
+      - torchvision==0.13.1+rocm5.1.1
+      - torchaudio==0.12.1
+      - astunparse
+      - blendmodes
+      - accelerate
+      - basicsr
+      - fonts
+      - font-roboto
+      - gfpgan
+      - gradio==3.28.1
+      - numpy
+      - omegaconf
+      - opencv-contrib-python
+      - requests
+      - piexif
+      - Pillow
+      - pytorch_lightning==1.7.7
+      - realesrgan
+      - scikit-image>=0.19
+      - timm==0.4.12
+      - transformers==4.25.1
+      - einops
+      - jsonmerge
+      - clean-fid
+      - resize-right
+      - torchdiffeq
+      - kornia
+      - lark
+      - inflection
+      - GitPython
+      - torchsde
+      - safetensors
+      - psutil
+      - rich
+      # - open-clip-torch==1.2.1
+      - git+https://github.com/openai/CLIP.git@d50d76daa670286dd6cacf3bcd80b5e4823fc8e1
+      - git+https://github.com/mlfoundations/open_clip.git@bb6e834e9c70d9c27d0dc3ecedeebeaeb1ffad6b
+      - tomesd # Text2Video-Zero-sd-webui
+      - diffusers # Text2Video-Zero-sd-webui
+      - spotdl # For downloading audio

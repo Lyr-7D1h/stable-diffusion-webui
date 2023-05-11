@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-set -eu
+set -e
 
 cd "$(dirname "$0")"
 
-export HSA_OVERRIDE_GFX_VERSION=10.3.0
+export HSA_OVERRIDE_GFX_VERSION="10.3.0"
 
 if [[ "$CONDA_DEFAULT_ENV" != "ldm" ]]; then
   echo "Activiating conda environment"
