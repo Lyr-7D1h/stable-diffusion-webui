@@ -13,6 +13,6 @@ if [[ "$CONDA_DEFAULT_ENV" != "ldm" ]]; then
 fi
 
 echo "Applying gradio fix"
-mkdir /tmp/gradio/
+mkdir -p /tmp/gradio/
 
 PYTORCH_HIP_ALLOC_CONF=garbage_collection_threshold:0.9,max_split_size_mb:512 python launch.py --precision full --no-half --opt-sub-quad-attention $@
