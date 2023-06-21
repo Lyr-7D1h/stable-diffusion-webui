@@ -3,7 +3,6 @@
 Fork from `https://github.com/AUTOMATIC1111/stable-diffusion-webui`
 
 Besides making it Rocm compatible I'm writing down any usefull information I found in here.
-
 ## Usage
 
 ```

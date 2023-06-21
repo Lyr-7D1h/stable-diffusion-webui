@@ -2,10 +2,8 @@ astunparse
 blendmodes
 accelerate
 basicsr
-fonts
-font-roboto
 gfpgan
-gradio==3.29.0
+gradio==3.31.0
 numpy
 omegaconf
 opencv-contrib-python
@@ -30,6 +28,7 @@ torchsde
 safetensors
 psutil
 rich
+tomesd
 torch==1.12.1+rocm5.1.1 
 torchvision==0.13.1+rocm5.1.1 
 torchaudio==0.12.1
